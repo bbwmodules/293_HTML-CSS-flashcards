@@ -1,0 +1,131 @@
+{
+  "topic": "11.4_HTML-CSS-Gestaltung-Mit-CSS",
+  "description": "CSS, Einbindung, Eigenschaften, Einheiten, Selektoren",
+  "cards": [
+    {
+      "q": "Grundprinzip CSS",
+      "a": "HTML beschreibt die Struktur (Inhalt), CSS das Aussehen (Design). Inhalt und Darstellung werden getrennt. :contentReference[oaicite:1]{index=1}"
+    },
+    {
+      "q": "Was ist eine Style-Regel?",
+      "a": "Eine Anweisung in der Form „eigenschaft: wert;“ – z. B. color: red; :contentReference[oaicite:2]{index=2}"
+    },
+    {
+      "q": "Inline-Style",
+      "a": "CSS direkt am Element, z. B. <p style=\"color:red;\">…</p>. Schnell, aber unübersichtlich. :contentReference[oaicite:3]{index=3}"
+    },
+    {
+      "q": "Style-Block",
+      "a": "CSS im <style>-Block innerhalb des HTML-Dokuments (gut für kleine Seiten/Tests). :contentReference[oaicite:4]{index=4}"
+    },
+    {
+      "q": "Externe CSS-Datei",
+      "a": "CSS in separater Datei, per <link rel=\"stylesheet\" href=\"styles.css\"> eingebunden. Standard für größere Websites. :contentReference[oaicite:5]{index=5}"
+    },
+
+    {
+      "q": "Eigenschaft: color",
+      "a": "Legt die Textfarbe fest, z. B. red, blue oder #00FF00. :contentReference[oaicite:6]{index=6}"
+    },
+    {
+      "q": "Eigenschaft: font-size",
+      "a": "Bestimmt die Schriftgröße, z. B. 16px, 2em, 120%. :contentReference[oaicite:7]{index=7}"
+    },
+    {
+      "q": "Eigenschaft: background-color",
+      "a": "Hintergrundfarbe eines Elements, z. B. lightyellow oder #f0f0f0. :contentReference[oaicite:8]{index=8}"
+    },
+    {
+      "q": "Eigenschaft: list-style-type",
+      "a": "Symbolart bei Listen, z. B. disc, square, none. :contentReference[oaicite:9]{index=9}"
+    },
+    {
+      "q": "Eigenschaft: margin-left",
+      "a": "Linker Außenabstand (Einrückung), z. B. 20px. :contentReference[oaicite:10]{index=10}"
+    },
+    {
+      "q": "Eigenschaft: border",
+      "a": "Rahmen: Dicke, Art, Farbe – z. B. 2px solid blue. :contentReference[oaicite:11]{index=11}"
+    },
+    {
+      "q": "Eigenschaft: width",
+      "a": "Breite eines Elements (z. B. Bild, div), z. B. 150px oder 50%. :contentReference[oaicite:12]{index=12}"
+    },
+
+    {
+      "q": "Einheit: px",
+      "a": "Pixel – Bildschirmpixel als absolute Einheit. :contentReference[oaicite:13]{index=13}"
+    },
+    {
+      "q": "Einheit: %",
+      "a": "Relativ zum Elternelement, z. B. width:50% nimmt die halbe Breite des Containers ein. :contentReference[oaicite:14]{index=14}"
+    },
+    {
+      "q": "Einheit: rem",
+      "a": "Relativ zur Root-Schriftgröße (html). Bei 16px Root sind 2rem → 32px. :contentReference[oaicite:15]{index=15}"
+    },
+    {
+      "q": "Einheit: em",
+      "a": "Relativ zur Schriftgröße des Eltern-Elements. Bei 16px Eltern sind 2em → 32px. :contentReference[oaicite:16]{index=16}"
+    },
+    {
+      "q": "Farbformat: #RRGGBB",
+      "a": "Hex-Farben: RR=Rot, GG=Grün, BB=Blau (00–FF). Bsp.: #800080 (dunkles Violett). :contentReference[oaicite:17]{index=17}"
+    },
+    {
+      "q": "Farbname: rot",
+      "a": "Beispiel für Farbnamen: color: red; setzt die Textfarbe auf Rot. :contentReference[oaicite:18]{index=18}"
+    },
+    {
+      "q": "Wert: inherit",
+      "a": "Erbt den Wert vom Elternelement. Z. B. ul ul { font-size: inherit; } stoppt weiteres Hochskalieren in verschachtelten Listen. :contentReference[oaicite:19]{index=19}"
+    },
+    {
+      "q": "Textausrichtung: justify",
+      "a": "text-align: justify; erzeugt Blocksatz. :contentReference[oaicite:20]{index=20}"
+    },
+    {
+      "q": "Schriftfamilie: sans-serif",
+      "a": "Serifenlose Schriftfamilie, z. B. p { font-family: sans-serif; }. :contentReference[oaicite:21]{index=21}"
+    },
+
+    {
+      "q": "CSS Selektoren (Überblick)",
+      "a": "Bestimmen, welche Elemente gestylt werden: Element-, Klassen-, ID-, verschachtelte und Attribut-Selektoren. :contentReference[oaicite:22]{index=22}"
+    },
+    {
+      "q": "Element-Selektor",
+      "a": "Spricht alle Elemente eines Typs an: p { color: blue; }. :contentReference[oaicite:23]{index=23}"
+    },
+    {
+      "q": "Klassen-Selektor",
+      "a": "Spricht Elemente mit class an: .info { color: green; }, <p class=\"info\">…</p>. :contentReference[oaicite:24]{index=24}"
+    },
+    {
+      "q": "ID-Selektor",
+      "a": "Spricht ein Element mit id an: #haupttitel { font-size: 30px; }. :contentReference[oaicite:25]{index=25}"
+    },
+    {
+      "q": "Verschachtelte Selektoren",
+      "a": "Beschränken auf bestimmte Struktur, z. B. nav ul li { list-style-type: none; }. :contentReference[oaicite:26]{index=26}"
+    },
+    {
+      "q": "Attribut-Selektor",
+      "a": "Zielt auf Attribute: input[type=\"text\"] { border: 1px solid gray; }. :contentReference[oaicite:27]{index=27}"
+    },
+    {
+      "q": "Cascading (Kaskade)",
+      "a": "Regeln überlagern sich; spezifischere gewinnt (z. B. #id vor .klasse vor element). Ergebnis richtet sich nach Spezifität/Reihenfolge. :contentReference[oaicite:28]{index=28}"
+    },
+
+    {
+      "q": "Unter-Liste (verschachtelte Liste)",
+      "a": "Eine ul innerhalb einer li erstellt eine Unterliste. Beispiel im Dokument mit Möbel-Unterpunkten. :contentReference[oaicite:29]{index=29}"
+    },
+    {
+      "q": "Unterschied „table ul“ vs. „table, ul“",
+      "a": "„table ul“ stylt ul, die NACHFAHREN von table sind (Descendant-Selektor). „table, ul“ stylt table UND ul unabhängig (Gruppierung). :contentReference[oaicite:30]{index=30}"
+    }
+  ]
+}
+

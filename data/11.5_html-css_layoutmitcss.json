@@ -1,0 +1,111 @@
+{
+  "topic": "11.5_HTML-CSS Layout mit CSS",
+  "description": "Box-Modell, Display, Position und Layout-Elemente",
+  "cards": [
+    {
+      "q": "Was ist das CSS-Box Modell?",
+      "a": "Das Box-Modell behandelt jedes HTML-Element als Box mit vier Bereichen: content (Inhalt), padding (Innenabstand), border (Rahmen) und margin (Außenabstand)."
+    },
+    {
+      "q": "Was bedeutet margin?",
+      "a": "margin ist der Außenabstand einer Box zum nächsten Element."
+    },
+    {
+      "q": "Was bedeutet border?",
+      "a": "border ist der Rahmen um eine Box, z. B. 5px solid blue."
+    },
+    {
+      "q": "Was bedeutet padding?",
+      "a": "padding ist der Innenabstand zwischen Inhalt und Rahmen einer Box."
+    },
+    {
+      "q": "Was bedeutet content?",
+      "a": "content ist der eigentliche Inhalt einer Box, z. B. Text oder Bild."
+    },
+
+    {
+      "q": "Welche Display-Typen gibt es in CSS?",
+      "a": "block (nimmt ganze Breite ein, neue Zeile), inline (fließt im Text mit), inline-block (inline, aber mit Breite/Höhe), flex (flexible Layouts), grid (Raster-System)."
+    },
+    {
+      "q": "Welche Positionierungsarten gibt es in CSS?",
+      "a": "static (Standardfluss), relative (verschoben zur Standardposition), absolute (relativ zu nächstem positionierten Elternelement), fixed (bleibt fix beim Scrollen), sticky (Mischung aus relative und fixed)."
+    },
+
+    {
+      "q": "Was bedeutet block?",
+      "a": "Ein block-Element nimmt die volle Breite ein und beginnt in einer neuen Zeile (z. B. <div>, <p>)."
+    },
+    {
+      "q": "Was bedeutet inline?",
+      "a": "Ein inline-Element fließt im Text mit (z. B. <span>, <a>)."
+    },
+    {
+      "q": "Was bedeutet inline-block?",
+      "a": "inline-block-Elemente verhalten sich wie inline, haben aber einstellbare Breite und Höhe."
+    },
+    {
+      "q": "Was bedeutet flex?",
+      "a": "Flexbox ist ein Layout-Modus, der Kinder nebeneinander in flexiblen Reihen/Spalten anordnet."
+    },
+    {
+      "q": "Was bedeutet grid?",
+      "a": "Grid ist ein leistungsstarkes Raster-System für komplexe Layouts mit Zeilen und Spalten."
+    },
+
+    {
+      "q": "Was bedeutet static?",
+      "a": "static ist die Standard-Positionierung: Elemente erscheinen im normalen Dokumentenfluss."
+    },
+    {
+      "q": "Was bedeutet relative?",
+      "a": "relative verschiebt ein Element relativ zu seiner normalen Position."
+    },
+    {
+      "q": "Was bedeutet absolute?",
+      "a": "absolute positioniert ein Element relativ zum nächsten positionierten Elternelement."
+    },
+    {
+      "q": "Was bedeutet fixed?",
+      "a": "fixed fixiert ein Element relativ zum Browserfenster (z. B. eine Menüleiste beim Scrollen)."
+    },
+    {
+      "q": "Was bedeutet sticky?",
+      "a": "sticky kombiniert relative und fixed: bleibt an seiner Position, bis ein Scrollpunkt erreicht ist."
+    },
+
+    {
+      "q": "Wofür dient <header>?",
+      "a": "<header> kennzeichnet den Kopfbereich einer Seite (Logo, Titel, Navigation)."
+    },
+    {
+      "q": "Wofür dient <footer>?",
+      "a": "<footer> kennzeichnet den Fußbereich einer Seite (Kontakt, Impressum, Copyright)."
+    },
+    {
+      "q": "Wofür dient <aside>?",
+      "a": "<aside> enthält Inhalte, die im indirekten Zusammenhang mit dem Hauptinhalt stehen (z. B. Werbekasten, Zusatzinfos)."
+    },
+    {
+      "q": "Wofür dient <section>?",
+      "a": "<section> gliedert eine Seite in thematische Abschnitte."
+    },
+
+    {
+      "q": "Wofür dient <table>?",
+      "a": "<table> erstellt eine Tabelle."
+    },
+    {
+      "q": "Wofür dient <tr>?",
+      "a": "<tr> steht für table row – eine Tabellenzeile."
+    },
+    {
+      "q": "Wofür dient <th>?",
+      "a": "<th> ist ein Tabellenkopf (Spaltentitel)."
+    },
+    {
+      "q": "Wofür dient <td>?",
+      "a": "<td> ist eine Tabellenzelle mit normalen Daten."
+    }
+  ]
+}
