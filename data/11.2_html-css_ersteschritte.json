@@ -20,7 +20,7 @@
         },
         {
           "q": "Was ist ein Ende-Tag?",
-          "a": "Ein Ende-Tag schließt ein Element, z. B. </p>. Zusammen mit dem Anfangs-Tag bildet es ein Element."
+          "a": "Ein Ende-Tag schliesst ein Element, z. B. </p>. Zusammen mit dem Anfangs-Tag bildet es ein Element."
         },
         {
           "q": "Was ist der Unterschied zwischen normalem Text und HTML im Browser?",
@@ -32,7 +32,7 @@
         },
         {
           "q": "Was bewirkt das <h1>-Tag?",
-          "a": "<h1> definiert die wichtigste Überschrift einer Seite. Es wird meist groß und fett dargestellt."
+          "a": "<h1> definiert die wichtigste Überschrift einer Seite. Es wird meist gross und fett dargestellt."
         },
         {
           "q": "Was bewirkt das <p>-Tag?",

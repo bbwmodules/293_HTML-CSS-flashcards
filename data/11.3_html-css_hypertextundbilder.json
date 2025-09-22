@@ -36,7 +36,7 @@
     },
     {
       "q": "Wofür dient das width-Attribut?",
-      "a": "Mit `width` (und optional `height`) kann die Größe des Bildes in Pixeln angegeben werden."
+      "a": "Mit `width` (und optional `height`) kann die Grösse des Bildes in Pixeln angegeben werden."
     },
     {
       "q": "Wofür dient das title-Attribut bei <img>?",

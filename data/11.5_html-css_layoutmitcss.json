@@ -1,14 +1,14 @@
 {
-  "topic": "11.5_HTML-CSS Layout mit CSS",
+  "topic": "_HTML-CSS Layout mit CSS",
   "description": "Box-Modell, Display, Position und Layout-Elemente",
   "cards": [
     {
       "q": "Was ist das CSS-Box Modell?",
-      "a": "Das Box-Modell behandelt jedes HTML-Element als Box mit vier Bereichen: content (Inhalt), padding (Innenabstand), border (Rahmen) und margin (Außenabstand)."
+      "a": "Das Box-Modell behandelt jedes HTML-Element als Box mit vier Bereichen: content (Inhalt), padding (Innenabstand), border (Rahmen) und margin (Aussenabstand)."
     },
     {
       "q": "Was bedeutet margin?",
-      "a": "margin ist der Außenabstand einer Box zum nächsten Element."
+      "a": "margin ist der Aussenabstand einer Box zum nächsten Element."
     },
     {
       "q": "Was bedeutet border?",
@@ -25,7 +25,7 @@
 
     {
       "q": "Welche Display-Typen gibt es in CSS?",
-      "a": "block (nimmt ganze Breite ein, neue Zeile), inline (fließt im Text mit), inline-block (inline, aber mit Breite/Höhe), flex (flexible Layouts), grid (Raster-System)."
+      "a": "block (nimmt ganze Breite ein, neue Zeile), inline (fliesst im Text mit), inline-block (inline, aber mit Breite/Höhe), flex (flexible Layouts), grid (Raster-System)."
     },
     {
       "q": "Welche Positionierungsarten gibt es in CSS?",
@@ -38,7 +38,7 @@
     },
     {
       "q": "Was bedeutet inline?",
-      "a": "Ein inline-Element fließt im Text mit (z. B. <span>, <a>)."
+      "a": "Ein inline-Element fliesst im Text mit (z. B. <span>, <a>)."
     },
     {
       "q": "Was bedeutet inline-block?",
@@ -80,7 +80,7 @@
     },
     {
       "q": "Wofür dient <footer>?",
-      "a": "<footer> kennzeichnet den Fußbereich einer Seite (Kontakt, Impressum, Copyright)."
+      "a": "<footer> kennzeichnet den Fussbereich einer Seite (Kontakt, Impressum, Copyright)."
     },
     {
       "q": "Wofür dient <aside>?",

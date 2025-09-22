@@ -20,7 +20,7 @@
     },
     {
       "q": "Externe CSS-Datei",
-      "a": "CSS in separater Datei, per <link rel=\"stylesheet\" href=\"styles.css\"> eingebunden. Standard für größere Websites. :contentReference[oaicite:5]{index=5}"
+      "a": "CSS in separater Datei, per <link rel=\"stylesheet\" href=\"styles.css\"> eingebunden. Standard für grössere Websites. :contentReference[oaicite:5]{index=5}"
     },
 
     {
@@ -29,7 +29,7 @@
     },
     {
       "q": "Eigenschaft: font-size",
-      "a": "Bestimmt die Schriftgröße, z. B. 16px, 2em, 120%. :contentReference[oaicite:7]{index=7}"
+      "a": "Bestimmt die Schriftgrösse, z. B. 16px, 2em, 120%. :contentReference[oaicite:7]{index=7}"
     },
     {
       "q": "Eigenschaft: background-color",
@@ -41,7 +41,7 @@
     },
     {
       "q": "Eigenschaft: margin-left",
-      "a": "Linker Außenabstand (Einrückung), z. B. 20px. :contentReference[oaicite:10]{index=10}"
+      "a": "Linker Aussenabstand (Einrückung), z. B. 20px. :contentReference[oaicite:10]{index=10}"
     },
     {
       "q": "Eigenschaft: border",
@@ -62,11 +62,11 @@
     },
     {
       "q": "Einheit: rem",
-      "a": "Relativ zur Root-Schriftgröße (html). Bei 16px Root sind 2rem → 32px. :contentReference[oaicite:15]{index=15}"
+      "a": "Relativ zur Root-Schriftgrösse (html). Bei 16px Root sind 2rem → 32px. :contentReference[oaicite:15]{index=15}"
     },
     {
       "q": "Einheit: em",
-      "a": "Relativ zur Schriftgröße des Eltern-Elements. Bei 16px Eltern sind 2em → 32px. :contentReference[oaicite:16]{index=16}"
+      "a": "Relativ zur Schriftgrösse des Eltern-Elements. Bei 16px Eltern sind 2em → 32px. :contentReference[oaicite:16]{index=16}"
     },
     {
       "q": "Farbformat: #RRGGBB",
